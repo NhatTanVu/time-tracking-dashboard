@@ -196,20 +196,21 @@
 
             body.flex {
                 flex-direction: column;
-                justify-content: flex-start;
+                justify-content: center;
                 --gap: 0;
             }
 
         .home-grid {
             padding: var(--padding);
             width: 100%;
-            margin: 0;
+            margin: auto;
             grid-template-areas:
                 'report work play study'
                 'report exercise social self-care';
             grid-template-columns: minmax(14rem, 1fr) minmax(12rem, 1fr) minmax(12rem, 1fr) minmax(12rem, 1fr);
-            grid-template-rows: auto auto;
+            grid-template-rows: 1fr 1fr;
             --gap: var(--padding);
+            max-width: 80rem;
         }
 
             .home-grid > .report {
@@ -357,7 +358,7 @@
                     'report study exercise'
                     'report social self-care';
                 grid-template-columns: minmax(14rem, 1fr) minmax(12rem, 1fr) minmax(12rem, 1fr);
-                grid-template-rows: auto auto auto;
+                grid-template-rows: 1fr 1fr 1fr;
                 --padding: 1rem;
             }
         }
@@ -389,7 +390,7 @@
     </script>
 </head>
 <body class="flex">
-    <main class="grid home-grid" style="flex: 1;">
+    <main class="grid home-grid">
         <div class="report flex">
             <div class="info flex" style="flex: 1;">
                 <img class="avatar" src="./images/image-jeremy.png" alt="Jeremy image" />
