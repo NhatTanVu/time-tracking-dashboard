@@ -1,6 +1,10 @@
 # Frontend Mentor - Time tracking dashboard
 
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+<a href="https://nhattanvu.github.io/time-tracking-dashboard/" target="_blank"><kbd><img src="./design/desktop-preview.jpg" alt="Time tracking dashboard coding challenge" /></kbd></a>
+
+## Preview Site
+
+https://nhattanvu.github.io/time-tracking-dashboard/
 
 ## Welcome! 👋
 
